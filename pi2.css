@@ -5,7 +5,7 @@
 }
 .caixa{
     margin-left: 10%;
-    
+    max-width: 80%;
 }
 nav {
     color: white;
@@ -19,7 +19,7 @@ ul li{
 }
 ul{
     display: inline;
-    margin-left: 500px;
+    margin-left: 400px;
 }
 h1{
     display: inline;
