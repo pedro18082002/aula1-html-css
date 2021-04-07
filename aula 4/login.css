@@ -1,0 +1,78 @@
+body{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   }
+   .cabeçalho{
+       background-color: rgb(51, 46, 46);
+       width: 100%;
+       height: 100px;
+       border-bottom: 2px solid orangered;
+       
+   }
+   .caixa{
+       margin-left: 10%;
+       max-width: 80%;
+       padding: 30px;
+   }
+   
+   .cor2{
+       color: rgb(255, 94, 0);
+   }
+   .caixa ul li{
+       display: inline;
+       margin-left: 7px;
+   }
+   .caixa ul{
+       color: white;
+       display: inline;
+       margin-left: 400px;
+   }
+   .caixa h1{
+       color: white;
+       display: inline;
+   }
+   .pag_login{
+    background-color: #cef0f1;
+    text-align: center;
+    padding: 50px 0;
+    height: 323px;
+   }
+   .box_login{
+       display: inline-block;
+       background-color: white;
+       box-shadow: 3px 3px 5px 2px #ccc;
+       padding: 40px 20px 0px 20px;
+       border-radius: 20px;
+       width: 400px;
+       height: 300px;
+   }
+   .pag_login .input_padrao{
+       width: 50%;
+       display: inline-block;
+       border-radius: 5px;
+       height: 30px;
+       border-color: rgb(0 0 0 / 26%);
+   }
+   .pag_login .but_padrao{
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    margin: 20px 0px 0px 0px;
+    box-shadow: 3px 3px 5px 2px #ccc;
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+    border-color: transparent;
+   }
+   .rodape{
+    background-color: rgb(255, 102, 0);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    
+    }
+    .rodape nav{
+    color: white;
+    padding-top: 40px;
+    }
