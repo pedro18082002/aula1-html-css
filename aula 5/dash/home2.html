@@ -12,10 +12,10 @@
 </head>
 
 <body>
-    <div style="width: 70%; height: 100px">
+    <div style="width: 40%;">
         <canvas id="myChart"></canvas>
       </div>
-      <samp style="color: khaki;"></samp>
+
 </body>
 
 </html>
@@ -31,9 +31,9 @@
         var numero9 = parseInt(Math.random()*11)
     var ctx = document.getElementById('myChart').getContext('2d');
     var myChart = new Chart(ctx, {
-        type: 'bar',
+        type: 'radar',
         data: {
-            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange', 'black','quamarine','khaki'],
+            labels: ['1', '2', '3', '', 'Purple', 'Orange', 'black','quamarine','khaki'],
             datasets: [{
                 label: '# of Votes',
                 data: [numero1, numero2, numero3, numero4, numero5, numero6, numero7, numero8, numero9],
@@ -60,15 +60,11 @@
                     'rgba(127, 255, 212,1)',
                     'rgba(240, 230, 140, 1)'
                 ],
+                
                 borderWidth: 1
             }]
         },
-        options: {
-            scales: {
-                y: {
-                    beginAtZero: false
-                }
-            }
-        }
+        
+
     });
     </script>
